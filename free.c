@@ -12,10 +12,10 @@ int play_with_memory() {
     free(pt);
 
     // What happens if you uncomment these statements?
-    // printf("%d\n", *pt);
-    // *pt = 7;
+     printf("%d\n", *pt);
+     *pt = 7;
 
-    // printf("%d\n", *pt);
+     printf("%d\n", *pt);
 
     return 0;
 }

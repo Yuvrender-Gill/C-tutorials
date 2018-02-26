@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char text[20] = {'h', 'e', 'l', 'l', 'o', '\0'};
+//    char text[20] = {'h', 'e', 'l', 'l', 'o', '\0'};
     // This does the same thing
-    //char text[20] = "hello";
+    char text[20] = "hello";
   
     printf("%s\n", text);
 
@@ -17,7 +17,7 @@ int main() {
     text[0] = 'j';
     printf("%s\n", text);
     // See what happens if we uncomment the next line and compile
-    // text1[3] = 'X';
+    //text1[3] = 'X';
 
     return 0;
 }

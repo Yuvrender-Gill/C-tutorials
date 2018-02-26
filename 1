@@ -3,14 +3,14 @@
 
 
 int *set_i() {
-    int *i_pt = malloc(sizeof(int));
-    *i_pt = 5;
-    return i_pt;
+//    int *i_pt = malloc(sizeof(int));
+//    *i_pt = 5;
+//    return i_pt;
 
     // Try commenting out the lines above and uncommenting the ones below
     // to see teh problem if you don't use malloc.
-//    int i = 5;
-//    return &i;
+    int i = 5;
+    return &i;
 }
 
 // a function that appears to have nothing to do with i and pt
